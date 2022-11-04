@@ -24,6 +24,7 @@ public class Permute46 {
         if (cur.size() == nums.length) {
             List<Integer> copy = new ArrayList<>(cur);
             res.add(copy);
+            return;
         }
 
         for (int num : nums) {
